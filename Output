@@ -1,0 +1,25 @@
+# Browser Extension Security Audit Report
+
+## Date: July 3, 2025
+## Browser: Google Chrome (v126)
+
+### ✅ Safe Extensions (Manually Verified)
+- uBlock Origin
+- Grammarly for Chrome
+- Bitwarden – Password Manager
+
+### ⚠️ Suspicious Extensions Identified
+
+| Extension Name     | Risk Factors | Action Taken |
+|--------------------|--------------|--------------|
+| Super Search Tab   | Unknown developer, opens pop-ups and ads | Removed |
+| Easy PDF Converter | Low ratings, asks for full browsing data | Removed |
+| Flash Video Player | Outdated, unnecessary permissions         | Removed |
+
+### 🔍 Notes
+- Extensions had unnecessary permissions like reading browsing history and modifying web requests.
+- Some were pre-installed by third-party installers.
+- Users should regularly review and audit installed browser extensions.
+
+### 🧼 Result
+✅ 3 suspicious extensions were removed to enhance browser security.
